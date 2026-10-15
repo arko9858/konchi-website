@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#527F3A">
+  <meta name="color-scheme" content="light">
+  <meta name="description" content="Something easier is coming. Konchi is getting ready to make everyday life simpler, starting with lunch and dinner in Dhaka.">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Konchi">
+  <meta property="og:url" content="https://konchi.org/">
+  <meta property="og:title" content="Konchi — Something easier is coming">
+  <meta property="og:description" content="Life, Made Easier. Starting with everyday meals. Coming soon.">
+  <meta property="og:image" content="https://konchi.org/assets/social-preview.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Konchi — Something easier is coming. Starting with lunch and dinner.">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Konchi — Something easier is coming">
+  <meta name="twitter:description" content="Life, Made Easier. Starting with everyday meals.">
+  <meta name="twitter:image" content="https://konchi.org/assets/social-preview.jpg">
+  <link rel="icon" href="assets/favicon.png" type="image/png">
+  <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+  <link rel="canonical" href="https://konchi.org/">
+  <link rel="preload" as="image" href="assets/meal-hero.webp" type="image/webp">
+  <link rel="stylesheet" href="styles.css">
+  <title>Konchi — Coming Soon</title>
+</head>
+<body>
+  <div class="site-shell">
+    <header class="site-header">
+      <a class="logo-link" href="/" aria-label="Konchi homepage">
+        <img class="site-logo" src="assets/konchi-wordmark.png" alt="Konchi" width="1100" height="273">
+      </a>
+      <span class="site-address">konchi.org <span aria-hidden="true">↗</span></span>
+    </header>
+
+    <main class="hero" id="main-content">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="status-dot" aria-hidden="true"></span> COMING SOON</p>
+        <h1>
+          <span class="headline-row">Something</span>
+          <span class="headline-row"><span class="headline-green">easier</span> is</span>
+          <span class="headline-row">coming<span class="headline-dot">.</span></span>
+        </h1>
+        <p class="lead">Life, Made Easier.</p>
+        <p class="description">We're getting ready to make everyday life simpler, starting with lunch and dinner.</p>
+        <div class="service-pill">
+          <img src="assets/meal-icon.png" alt="" width="176" height="176" aria-hidden="true">
+          <span>Starting with everyday meals</span>
+        </div>
+      </div>
+
+      <figure class="hero-card">
+        <div class="photo-wrap">
+          <picture>
+            <source type="image/webp" srcset="assets/meal-hero.webp">
+            <img
+              class="hero-photo"
+              src="assets/meal-hero.jpg"
+              width="1122"
+              height="917"
+              alt="Konchi-branded meal box with rice, fish, vegetables and other dishes, on a warm tabletop"
+              fetchpriority="high"
+            >
+          </picture>
+        </div>
+        <figcaption class="photo-caption">
+          <div class="caption-copy">
+            <span class="caption-kicker">FIRST UP</span>
+            <span class="caption-title">A better everyday meal.</span>
+          </div>
+          <span class="caption-number" aria-hidden="true">01</span>
+        </figcaption>
+      </figure>
+    </main>
+
+    <footer class="site-footer">
+      <span>© <span id="year">2026</span> Konchi. All rights reserved.</span>
+      <span>Dhaka, Bangladesh</span>
+    </footer>
+  </div>
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
